@@ -12,7 +12,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Asser's Knowledge Space",
+    pageTitle: "Asser's Zettelkasten",
     pageTitleSuffix: "",
     r2Bucket: "https://assets.asser.md/knowledgespace",
     enableSPA: true,
@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "knowledgespace.asser.md/", //asir-io.github.io/assers-knowledge-space
+    baseUrl: "zettelkasten.asser.md/",
     ignorePatterns: [
       "private",
       "templates",

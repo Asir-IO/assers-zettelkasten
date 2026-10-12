@@ -47,7 +47,6 @@ PageTitle.css = `
 
 .title-rest {
 color: var(--darkgray);
-font-size: 1.25rem;
 }
 `
 

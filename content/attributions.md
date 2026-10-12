@@ -2,7 +2,7 @@
 title: Attributions
 thumbnail: "[[icons/attributions-icon.svg]]"
 ---
-I can confidently say that this Knowledge Space wouldn't have been possible if not for the open-source projects/assets that I had access to; I'm grateful for every human being who made each of them possible :pi-smile:.
+I can confidently say that this [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) wouldn't have been possible if not for the open-source projects/assets that I had access to; I'm grateful for every human being who made each of them possible :pi-smile:.
 
 Below is the complete list.
 

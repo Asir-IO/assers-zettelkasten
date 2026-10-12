@@ -25,10 +25,15 @@ export default (() => {
       : null
     const thumbnailSlug = cleanName ? cleanName : "lab-temp-thumb.excalidraw.svg"
 
+    const isWideThumb = fileData.frontmatter?.wideThumb === true
+
     return (
       <header class={classNames(displayClass, "note-header")}>
-        <div class="thumb-and-meta-container">
-          <img src={encodeURI(`${cfg.r2Bucket}/z1-Assets/${thumbnailSlug}`)} class="thumb" />
+        <div class={`thumb-and-meta-container ${isWideThumb ? "wide-mode" : ""}`}>
+          <img 
+            src={encodeURI(`${cfg.r2Bucket}/z1-Assets/${thumbnailSlug}`)} 
+            class={`thumb ${isWideThumb ? "wide-thumb" : ""}`} 
+          />
           <div class="meta-container">
             <h1 class="article-title">{title}</h1>
             <Meta {...props} />
@@ -52,6 +57,13 @@ export default (() => {
     margin-bottom: 0;
   }
 
+  .thumb-and-meta-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    width: 100%;
+  }
+
   .thumb {
     flex-shrink: 0;
     width: 100px;
@@ -59,6 +71,20 @@ export default (() => {
     max-width: 100px;
     display: flex;
     margin: 0;
+  }
+
+  .thumb-and-meta-container.wide-mode {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .thumb.wide-thumb {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    aspect-ratio: 3/1;
+    object-fit: fill;
   }
 
   .meta-container {
@@ -69,30 +95,23 @@ export default (() => {
   }
 
   .meta-container .article-title {
-  flex: initial;
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
+    flex: initial;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
   }
 
-  .article-title .h1{
-  flex: initial;
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
-  margin: 0 0 0.5;
+  .article-title .h1 {
+    flex: initial;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 0 0.5;
   }
   
   .content-meta {
     margin-bottom: 0;
-}
-
-  .thumb-and-meta-container {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
   }
 
   .tags-container {
-    
   }
   ` +
     (Meta.css ?? "") +

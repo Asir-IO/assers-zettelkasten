@@ -1,5 +1,5 @@
 ---
-title: Asser's Knowledge Space
+title: Asser's Zettelkasten
 tabTitle: Welcome to my Place =)
 ---
 <div id="banner" style="border: 4px solid var(--dark); background-color: var(--light); padding: 6px;">
@@ -16,12 +16,45 @@ tabTitle: Welcome to my Place =)
 After three yrs of college, I asked myself:
 > How many of the concepts you've learned so far do u recall right *now*?
 
-I blanked. I could barely recall one or two. That is why I created this knowledge space or digital garden (I'm not sure what to call it, but that's not the point).
+I blanked. I could barely recall one or two. This is why I created this zettelkasten or digital garden (I'm not sure what to call it, but that's not the point).
 
-This is *(mostly)* a living collection of the work that usually gets lost after the finals week
-* **[[Concepts/index|Concepts]]** I have visualized.
-* **[[Strategies/index|Strategies]]** I devised to solve (mostly) exam problems.
-*  **[[Workflows/index|Workflows]]** I've developed to do stuff in a smoother way.
+This is *(mostly)* a living collection of the work and knowledge that's usually deemed lost after the finals. it includes:
+## [[Concepts/index|Concepts]]
+> [!two-column]
+>
+> > [!left|1]
+> > 
+> > <img src="z1-Assets/icons/concept-icon-2.svg" alt="Concepts Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0;  max-width: unset" />
+>
+> > [!right|9]
+> > 
+> > > [!with-desc]
+> >>Concepts that I successfully found a mental model for.
+>>>
+> >>> [!desc]
+> >>> 
+> >>> (usually is a visualization ;)
+## [[Strategies/index|Strategies]]
+> [!two-column]
+>
+> > [!left|1]
+> > 
+> > <img src="z1-Assets/icons/strategy-icon-2.svg" alt="Strategies Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
+>
+> > [!right|9]
+> > 
+> > Strategies that I developed/used to help me solve a problem in a more structured way.
+## [[Workflows/index|Workflows]]
+> [!two-column]
+>
+> > [!left|1]
+> > 
+> > <img src="z1-Assets/icons/workflow-icon-2.svg" alt="Workflows Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
+>
+> > [!right|9]
+> > 
+> > Workflows that help me do tasks in a smoother way.
+
 
 > [!Abstract]- A word for FCAI-CU undergrads
 > If you're an FCAI-CU undergrad, I've got a few words to tell u (bear with me).
@@ -37,39 +70,6 @@ This is *(mostly)* a living collection of the work that usually gets lost after 
 > [!warning] Just a heads up
 > Do NOT use this if you're cramming for an exam and need anything to help u pass 
 > (go solve exams mman).
-
----
-# Where everything is
-## [[Concepts/index|Concepts]]
-> [!two-column]
->
-> > [!left|1]
-> > 
-> > <img src="z1-Assets/icons/concept-icon-2.svg" alt="Concepts Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0;  max-width: unset" />
->
-> > [!right|9]
-> > 
-> > <span style="display: inline-block; margin-top: 15px;">Concepts that I successfully find a visual form for live here.</span>
-## [[Strategies/index|Strategies]]
-> [!two-column]
->
-> > [!left|1]
-> > 
-> > <img src="z1-Assets/icons/strategy-icon-2.svg" alt="Strategies Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
->
-> > [!right|9]
-> > 
-> > <span style="display: inline-block; margin-top: 15px;">I place here Strategies that I devised/borrowed to help me survive exams/solve problems in general.</span>
-## [[Workflows/index|Workflows]]
-> [!two-column]
->
-> > [!left|1]
-> > 
-> > <img src="z1-Assets/icons/workflow-icon-2.svg" alt="Workflows Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
->
-> > [!right|9]
-> > 
-> > <span style="display: inline-block; margin-top: 15px;">You'll find here workflows I developed for tasks that I wanted to do in a smoother way.</span>
 
 ---
 # Recent Notes

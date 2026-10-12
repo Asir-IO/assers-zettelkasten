@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: 'giscus',
       options: {
-        repo: 'Asir-IO/assers-knowledge-space',
+        repo: 'Asir-IO/assers-zettelkasten',
         repoId: 'R_kgDOQ4cjlA',
         category: 'Comments',
         categoryId: 'DIC_kwDOQ4cjlM4C60eh',

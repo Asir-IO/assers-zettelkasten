@@ -4,24 +4,20 @@
 @use "./variables.scss" as *;
 // @use "themes";
 
-// Website Name adjustment for mobile screens
 @media all and ($mobile) {
   .page-title {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    /* This pushes the text right so it doesn't hit the menu button */
     margin-left: 0.5rem; 
   }
 
-  /* 2. Shrink "Asser's" specifically for mobile */
   .title-first {
-    font-size: 1.4rem; /* Much smaller than the Desktop 2.75rem */
+    font-size: 1.4rem;
     line-height: 1;
   }
 
-  /* 3. Shrink "Knowledge Space" */
   .title-rest {
-    font-size: 0.7rem; /* Small subtitle size */
+    font-size: 1rem;
     line-height: 1;
   }
 }
@@ -414,6 +410,7 @@ article ol:not([data-list]) > li:not(:last-child)::after {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
 }
 
 .callout[data-callout="with-desc"] > .callout-title {
@@ -428,7 +425,8 @@ article ol:not([data-list]) > li:not(:last-child)::after {
     margin: 0;
 }
 .callout[data-callout="with-desc"] img,
-.callout[data-callout="with-desc"] .internal-embed {
+.callout[data-callout="with-desc"] .internal-embed,
+.callout[data-callout="with-desc"] p {
     margin: 0 !important;
 }
 .callout[data-callout="with-desc"] > .callout-content > p {
