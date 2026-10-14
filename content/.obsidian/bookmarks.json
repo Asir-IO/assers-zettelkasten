@@ -13,6 +13,11 @@
           "type": "file",
           "ctime": 1780098622660,
           "path": "Concepts/Agentic Memory.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1792002440109,
+          "path": "Concepts/Message Passing in Markov Networks.md"
         }
       ],
       "title": "Good Concept Notes"
@@ -23,8 +28,18 @@
       "items": [
         {
           "type": "file",
-          "ctime": 1780097319079,
-          "path": "Strategies/Insertion in a RB Tree.md"
+          "ctime": 1792002694440,
+          "path": "Strategies/Performing 2D Convolution.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1792002832872,
+          "path": "Strategies/Deletion in a RB Tree.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1792002664065,
+          "path": "Strategies/Solving a Backpropagation Problem.md"
         }
       ],
       "title": "Good Strategy Notes"

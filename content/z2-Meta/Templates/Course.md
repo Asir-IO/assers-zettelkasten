@@ -4,8 +4,6 @@ semester:
 level:
 university: true
 thumbnail:
-comments: true
-related-notes:
 ---
 # My Batch's Study Materials 
 * <a href="link" target="_blank">Google Drive Folder Link</a>

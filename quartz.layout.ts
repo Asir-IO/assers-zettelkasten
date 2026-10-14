@@ -9,19 +9,19 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.Comments({
-      provider: 'giscus',
+      provider: "giscus",
       options: {
-        repo: 'Asir-IO/assers-zettelkasten',
-        repoId: 'R_kgDOQ4cjlA',
-        category: 'Comments',
-        categoryId: 'DIC_kwDOQ4cjlM4C60eh',
-        mapping: 'pathname',
-        lang: 'en',
+        repo: "Asir-IO/assers-zettelkasten",
+        repoId: "R_kgDOQ4cjlA",
+        category: "Comments",
+        categoryId: "DIC_kwDOQ4cjlM4C60eh",
+        mapping: "pathname",
+        lang: "en",
         themeUrl: "https://giscus.app/themes/",
         lightTheme: "noborder_light",
         darkTheme: "noborder_gray",
         reactionsEnabled: true,
-      }
+      },
     }),
     Lightbox(),
     TargetHighlight(),
@@ -49,7 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     // Component.MobileOnly(
     //   Component.MobileMenu(
-    //     Component.Explorer(), 
+    //     Component.Explorer(),
     //     Component.TableOfContents()
     //   )
     // ),

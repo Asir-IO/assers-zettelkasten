@@ -12,6 +12,7 @@ related-notes:
   - "[[Vectors Outer Product]]"
   - "[[Transposing a Matrix]]"
   - "[[Matrix Multiplication as Inner Products]]"
+rank: 1
 ---
 ## What is the problem
 You have a matrix $A$ that u view as a columns matrix, and want to multiply it by a rows matrix $B^T$.    

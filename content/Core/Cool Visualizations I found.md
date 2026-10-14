@@ -15,6 +15,8 @@ I just came across this website: [Explorable Explanations](https://explorabl.es/
 
 This website is a journal that also contains invaluable ML visualizations: [Distill — Latest articles about machine learning](https://distill.pub/)
 
+[Up and Down the Ladder of Abstraction](https://worrydream.com/LadderOfAbstraction/), [Kill Math](https://worrydream.com/KillMath/), [Bret Victor, human being](https://worrydream.com/) 
+
 ---
 # Related Notes
 <!-- QueryToSerialize: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), "![[lab-temp-thumb.excalidraw.svg|120]]") AS "Thumbnail", link(file.path, title) AS "Note", choice( file.etags AND length(filter(file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6)) > 0, join(map(filter(file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6), (t) => upper(substring(replace(string(t), "#type/", ""), 0, 1)) + substring(replace(string(t), "#type/", ""), 1, 100) ), ", "), "N/A" ) AS "Type" FROM "" WHERE contains(this["related-notes"], file.link) AND !draft SORT date DESC -->

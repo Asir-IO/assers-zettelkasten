@@ -1,6 +1,13 @@
 ---
 title: Asser's Zettelkasten
 tabTitle: Welcome to my Place =)
+selected:
+  - "[[Convolution Sum in LTI systems]]"
+  - "[[Agentic Memory]]"
+  - "[[Performing 2D Convolution]]"
+  - "[[Deletion in a RB Tree]]"
+  - "[[Solving a Backpropagation Problem]]"
+comments: true
 ---
 <div id="banner" style="border: 4px solid var(--dark); background-color: var(--light); padding: 6px;">
   <div style="width: 100%; height: auto; overflow: hidden; border-radius: 4px; filter: brightness(1.4);">
@@ -74,15 +81,30 @@ This is *(mostly)* a living collection of the work and knowledge that's usually 
 ---
 # Recent Notes
 <!-- QueryToSerialize: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), ![[lab-temp-thumb.excalidraw.svg|120]]) AS "Thumbnail", link(file.path, title) AS "Note", date AS "Added" FROM "" WHERE file.ext = "md" AND !contains(file.name, ".excalidraw") AND !draft SORT date DESC LIMIT 5 -->
-<!-- SerializedQuery: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), ![[lab-temp-thumb.excalidraw.svg|120]]) AS "Thumbnail", link(file.path, title) AS "Note", date AS "Added" FROM "" WHERE file.ext = "md" AND !contains(file.name, ".excalidraw") AND isNote AND !draft SORT date DESC LIMIT 5 -->
+<!-- SerializedQuery: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), ![[lab-temp-thumb.excalidraw.svg|120]]) AS "Thumbnail", link(file.path, title) AS "Note", date AS "Added" FROM "" WHERE file.ext = "md" AND !contains(file.name, ".excalidraw") AND !draft SORT date DESC LIMIT 5 -->
 
-| Thumbnail                               | Note                                                     | Added         |
-| --------------------------------------- | -------------------------------------------------------- | ------------- |
-| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[A-Star Search]]             | June 03, 2026 |
-| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Uniform Cost Search]] | June 03, 2026 |
-| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Agent Architectures]] | June 02, 2026 |
-| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Minimax Algorithm]]     | May 31, 2026  |
-| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Autoencoders]]               | May 29, 2026  |
+| Thumbnail                               | Note                                                                     | Added              |
+| --------------------------------------- | ------------------------------------------------------------------------ | ------------------ |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[LSTM with Attention]] | September 27, 2026 |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[A-Star Search]]                             | June 03, 2026      |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Uniform Cost Search]]                 | June 03, 2026      |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Agent Architectures]]                 | June 02, 2026      |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | [[Minimax Algorithm]]                     | May 31, 2026       |
+
+<!-- SerializedQuery END -->
+
+---
+# Selected Notes
+<!-- QueryToSerialize: TABLE WITHOUT ID choice(item.thumbnail, "!" + replace(string(item.thumbnail), "]]", "|120]]"), ![[lab-temp-thumb.excalidraw.svg|120]]) AS "Thumbnail", link(item.file.path, item.title) AS "Note", choice(item.file.etags AND length(filter(item.file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6)) > 0, join(map(filter(item.file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6), (t) => upper(substring(replace(string(t), "#type/", ""), 0, 1)) + substring(replace(string(t), "#type/", ""), 1, 100) ), ", "), "N/A" ) AS "Type" WHERE file.path = this.file.path FLATTEN this.selected AS item WHERE !item.draft -->
+<!-- SerializedQuery: TABLE WITHOUT ID choice(item.thumbnail, "!" + replace(string(item.thumbnail), "]]", "|120]]"), ![[lab-temp-thumb.excalidraw.svg|120]]) AS "Thumbnail", link(item.file.path, item.title) AS "Note", choice(item.file.etags AND length(filter(item.file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6)) > 0, join(map(filter(item.file.etags, (t) => startswith(string(t), "#type/") AND length(string(t)) > 6), (t) => upper(substring(replace(string(t), "#type/", ""), 0, 1)) + substring(replace(string(t), "#type/", ""), 1, 100) ), ", "), "N/A" ) AS "Type" WHERE file.path = this.file.path FLATTEN this.selected AS item WHERE !item.draft -->
+
+| Thumbnail                                                                                                                                                      | Note                                                                                   | Type     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- |
+| ![[Convolution Sum 2026-01-24 23.41.52.excalidraw.svg\|Convolution Sum 2026-01-24 23.41.52.excalidraw.svg\|120]]                                     | [[Convolution Sum in LTI systems]]         | Concept  |
+| ![[LLM Memory 2026-04-12 18.01.32.excalidraw.svg\|LLM Memory 2026-04-12 18.01.32.excalidraw.svg\|120]]                                               | [[Agentic Memory]]                                         | Concept  |
+| ![[Performing 2D Convolution 2026-03-29 23.41.19.excalidraw.svg\|Performing 2D Convolution 2026-03-29 23.41.19.excalidraw.svg\|120]]                 | [[Performing 2D Convolution]]                 | Strategy |
+| ![[Deletion in a RB Tree 2026-01-13 18.37.35.excalidraw.svg\|Deletion in a RB Tree 2026-01-13 18.37.35.excalidraw.svg\|120]]                         | [[Deletion in a RB Tree]]                         | Strategy |
+| ![[Solving a Backpropagation Problem 2026-04-10 00.08.13.excalidraw.svg\|Solving a Backpropagation Problem 2026-04-10 00.08.13.excalidraw.svg\|120]] | [[Solving a Backpropagation Problem]] | Strategy |
 
 <!-- SerializedQuery END -->
 
@@ -97,11 +119,11 @@ I've grouped [[university courses|here]] content for each FCAI-CU course I exper
 
 ---
 # Who am I
-This is `Asser`, a junior Computer Science student at Cairo University (AI Department).
+This is `Asser`, a senior Computer Science student at Cairo University (AI Department).
 
 I'm the one who created this (with generous assistance from my buddy Gemmy).
 > [!desc]
-> (Gemmy thinks i'm a narcissist for mentioning my name this many times, I sure hope I'm not =\`))
+> (Gemmy thinks i'm a narcissist for mentioning my name this many times, I sure hope I'm not =\`)
 # Where to find me
 > [!two-column|0]
 >

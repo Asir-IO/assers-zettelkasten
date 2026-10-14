@@ -8,6 +8,7 @@ tags:
 draft: false
 comments: true
 related-notes:
+selected: false
 ---
 ## Mental Model
 

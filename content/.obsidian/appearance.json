@@ -4,7 +4,8 @@
     "timeline",
     "figure-with-caption",
     "with-desc-block",
-    "callouts"
+    "callouts",
+    "horizontal-table"
   ],
   "theme": "system",
   "textFontFamily": "Bricolage Grotesque 14pt",

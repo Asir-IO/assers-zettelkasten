@@ -3,9 +3,21 @@ title: University Courses
 thumbnail: "[[icons/university-courses-icon.svg]]"
 ---
 %% ![[courses 2026-05-18 02.52.37.excalidraw]] %%
+
+## Level 4<span style="float: right;">(current)</span>
+### Semester 1
+<!-- QueryToSerialize: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), "![[lab-temp-thumb.excalidraw.svg|120]]") AS "Thumbnail", file.name AS "Course ID", link(file.path, title) AS "Course Name"  from "tags/course" WHERE level = 4 AND semester = 1 SORT file.name ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), "![[lab-temp-thumb.excalidraw.svg|120]]") AS "Thumbnail", file.name AS "Course ID", link(file.path, title) AS "Course Name"  from "tags/course" WHERE level = 4 AND semester = 1 SORT file.name ASC -->
+
+| Thumbnail                               | Course ID | Course Name                                               |
+| --------------------------------------- | --------- | --------------------------------------------------------- |
+| ![[lab-temp-thumb.excalidraw.svg\|120]] | AI441     | [[AI441\|Intelligent Autonomous Robotics]] |
+
+<!-- SerializedQuery END -->
+
+---
 ## Level 3
 ### Semester 2
-(*current*)
 <!-- QueryToSerialize: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), "![[lab-temp-thumb.excalidraw.svg|120]]") AS "Thumbnail", file.name AS "Course ID", link(file.path, title) AS "Course Name"  from "tags/course" WHERE level = 3 AND semester = 2 SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID choice(thumbnail, "!" + replace(string(thumbnail), "]]", "|120]]"), "![[lab-temp-thumb.excalidraw.svg|120]]") AS "Thumbnail", file.name AS "Course ID", link(file.path, title) AS "Course Name"  from "tags/course" WHERE level = 3 AND semester = 2 SORT file.name ASC -->
 

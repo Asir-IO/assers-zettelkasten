@@ -6,7 +6,7 @@ tags:
   - course/
   - domain/
   - baby
-draft: true
+draft: false
 thumbnail:
 comments: true
 related-notes:
