@@ -12,10 +12,10 @@ related-notes:
   - "[[Vectors Outer Product]]"
   - "[[Transposing a Matrix]]"
   - "[[Matrix Multiplication as Inner Products]]"
-rank: 1
 ---
-## What is the problem
-You have a matrix $A$ that u view as a columns matrix, and want to multiply it by a rows matrix $B^T$.    
+Matrix Multiplication is a mathematical operation that a column vectors matrix perform on a rows vectors matrix.   
+
+Given a matrix $A$ that u view as a columns matrix, and a rows matrix $B^T$,   
 $$
 A = \begin{bmatrix}
 \uparrow & \uparrow \\
@@ -27,20 +27,16 @@ B^T = \begin{bmatrix}
 \leftarrow & \vec{b}_1 & \rightarrow\\
 \end{bmatrix}
 $$
+Their multiplication ($A * B^T$) is computed by adding up the outer product of the i-th column vector in A by the i-th row vector in B, for all i.
 
-You want to Compute $A * B^T$. 
-## Strategy
-1. highlight each column vector in $A$ by a <mark style="background: #CACFD9A6;">line</mark> that also shows its index.    
-	![[Matrix Multiplications as Outer Products 2026-03-09 00.53.50.excalidraw.svg]]
-2. highlight each row vector in $B^T$ by a <mark style="background: #CACFD9A6;">line</mark> that also shows its index.       
-	![[Matrix Multiplications as Outer Products 2026-03-09 00.55.32.excalidraw.svg]]
-
-Their <mark style="background: #CACFD9A6;">multiplication</mark> matrix is then constructed by computing the [[Vectors Outer Product|outer product]] at every intersection.    
 ![[Matrix Multiplication 2026-02-24 01.14.37.excalidraw.svg]]   
 
 ---
 # Example
+A digital example:
 ![[Matrix Multiplications as Outer Products 2026-05-26 19.28.42.excalidraw.svg]]
+A hand written example:
+![[Matrix Multiplications as Outer Products-1.mp4]]
 
 ---
 # Related Notes
