@@ -68,11 +68,11 @@ This is *(mostly)* a living collection of the work and knowledge that's usually 
 > 
 > Computer Science concepts are genuinely beautiful; I like to believe they are a form of art that deserves to be truly understood and appreciated.
 > 
-> Unfortunately, most of our University's courses are presented in a "*do this and only this because it's just true. If you didn't, I can't give u the grade*" fashion with very little emphasis on the intuition that makes things actually work. (maybe it isn't entirely their fault? It takes too much effort to teach intuition).
+> Unfortunately, most of our University's courses are presented in a "*do this and only this because it's simply true. If you didn't, you can't get the grade" fashion with very little emphasis on the intuition that makes things actually work. (I'm only pointing out the issue here, not blaming anyone).
 > 
-> This environment makes it easy to shy away from spending time trying to truly "see" how stuff works. It pushes u to compromise your actual learning just to be better at collecting grades.
+> This environment makes it easy to give up on trying to truly "see" how stuff works. It has pushed me before to compromise actual learning, just to get better at collecting grades.
 > 
-> Visualizations here may help u look at concepts from a different perspective. But I encourage u to not just view them passively. Take the time to come up with your own original visualization. Create a physical version on paper first, then maybe use Obsidian's Excalidraw to turn it digital =)
+> Visualizations here may help u look at concepts from a different perspective. But I encourage u to not just view them passively. Take the time to come up with your own original visualization. Create a physical version on paper first, then maybe use Obsidian's Excalidraw to turn it digital and add it to your own zettelkasten =)
 
 > [!warning] Just a heads up
 > Do NOT use this if you're cramming for an exam and need anything to help u pass 
@@ -139,17 +139,17 @@ I'm the one who created this (with generous assistance from my buddy Gemmy).
 >
 > > [!left|1]
 > > 
-> > <a href="https://m.me/asser.ahmed.1614/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-facebook-messenger" style="font-size: 26px;"></i></a>
+> > <a href="https://www.facebook.com/asser.ahmed.rushdy/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-square-facebook" style="font-size: 26px;"></i></a>
 >
 > > [!right|9]
 > > 
-> > This is an option too I guess, but bro, be for real.
+> > This is an option too, I guess.
 
 > [!two-column|0]
 >
 > > [!left|1]
 > > 
-> > <a href="https://www.linkedin.com/in/asser-ahmed-386329320" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-linkedin" style="font-size: 26px;"></i></a>
+> > <a href="https://www.linkedin.com/in/asser-ahmed-roshdy" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-linkedin" style="font-size: 26px;"></i></a>
 >
 > > [!right|9]
 > > 
@@ -163,5 +163,5 @@ I'm the one who created this (with generous assistance from my buddy Gemmy).
 >
 > > [!right|9]
 > > 
-> > <span>You won't find me there, but you'll find projects like this one.</span> 
+> > You won't find me there, but you'll find more of my creations.
 
