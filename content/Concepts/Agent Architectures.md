@@ -29,13 +29,13 @@ Only very simple and predictable ones.
 - deterministic,
 - and episodic.
 ## What it takes to be Rational
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|6]
+> > [!col|6]
 > > 
 > > It's enough to just map current percepts to immediate actions using condition-action rules.
 >
-> > [!right|4]
+> > [!col|4]
 > > 
 > > ![[Agent Architectures-1.png]]
 
@@ -47,13 +47,13 @@ Partially observable environments.
 
 Which means they needs to track how the world is evolving to constantly have an accurate representation of it.
 ## What it takes to be Rational
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|6]
+> > [!col|6]
 > > 
 >>They must be physically built with a model-based architecture, that is, they must maintain an internal state (a memory of past percepts and actions).
 >
-> > [!right|4]
+> > [!col|4]
 > > 
 > > ![[Agent Architectures-2.png]]
 
@@ -63,13 +63,13 @@ Instead of having static condition-action rules that lead to different states, t
 
 They do this navigation by continuously testing (planning ahead) how close taking an action brings them to the goal before taking it.
 ## What it takes to be Rational
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|6]
+> > [!col|6]
 > > 
 > > Having an explicit representation of what a goal is, and how to reach it (using a search tree).  
 >
-> > [!right|4]
+> > [!col|4]
 > > 
 > > ![[Agent Architectures-3.png]]
 ## Cons
@@ -84,14 +84,14 @@ Environments that are,
 2. and require having multiple (often conflicting) factors/utilities that require making trade-offs.
 	- (like navigating a city *quickly* but also *safely*)
 ## What it takes to be Rational
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|6]
+> > [!col|6]
 > > 
 > > Not merely reaching a goal state, but reaching the one that best balances between a set of factors (utilities) that must be respected in a problem.   
 > > 
 >
-> > [!right|4]
+> > [!col|4]
 > > 
 > > ![[Agent Architectures-4.png]]
 

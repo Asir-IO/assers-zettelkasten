@@ -93,16 +93,16 @@ An ordered list doesn't have to be indexed by decimal numbers only anymore; I ma
 - `quartz.config.ts`
 
 ---
-# 2-column blocks
-I can now very quickly insert a 2-column block using *templater*, and as a callout.   
-Also I can set the width portion of each column (left or right) by adding it as an alt to their respective callout.
+# Many-Columns Blocks
+I can now very quickly insert a many-columns using *templater*, and as a callout.   
+Also I can set the width portion of each column (relative to all the rest) by adding it as an alt to their respective callout.
 ### Example
 (renders as)
-> [!two-column]
-> > [!left|7]
+> [!many-cols]
+> > [!col|7]
 > > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis libero leo. Nunc lobortis enim vel metus auctor dictum. Fusce convallis mi non nunc tristique pulvinar.
 > 
-> > [!right|3]
+> > [!col|3]
 > > > [!with-desc]
 > > > 
 > > > ![[lab-temp-thumb.excalidraw.svg|150]]
@@ -113,11 +113,11 @@ Also I can set the width portion of each column (left or right) by adding it as 
 (syntax)
 
 ```
-> [!two-column]
-> > [!left|7]
+> [!many-cols]
+> > [!col|7]
 > > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis libero leo. Nunc lobortis enim vel metus auctor dictum. Fusce convallis mi non nunc tristique pulvinar.
 > 
-> > [!right|3]
+> > [!col|3]
 > > > [!with-desc]
 > > > 
 > > > ![[lab-temp-thumb.excalidraw.svg|150]]
@@ -126,7 +126,7 @@ Also I can set the width portion of each column (left or right) by adding it as 
 > > > > (an image)
 ```
 
-... the left column has 7 portions, the right one has 3.   
+... the 1st column has 7 portions, the 2nd has 3.   
 
 > [!desc]
 > (the default ones are 6 and 4, respectively)

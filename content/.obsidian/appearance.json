@@ -5,7 +5,8 @@
     "figure-with-caption",
     "with-desc-block",
     "callouts",
-    "horizontal-table"
+    "horizontal-table",
+    "many columns block"
   ],
   "theme": "system",
   "textFontFamily": "Bricolage Grotesque 14pt",

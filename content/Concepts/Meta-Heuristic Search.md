@@ -49,13 +49,13 @@ When it starts moving (t=0), it's more likely to wander off to a worse neighbor 
 
 This makes it possible for it to take that terrible path to eventually reach the maximum peak.
 
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|3]
+> > [!col|3]
 > > 
 > > This is a code snippet that shows how it works.
 >
-> > [!right|7]
+> > [!col|7]
 > > 
 > > > [!with-desc]
 > >>

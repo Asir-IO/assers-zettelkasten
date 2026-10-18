@@ -71,13 +71,13 @@ This is the network with every connection added.
 > "how much is <mark style="background: #CACFD9A6;">each observation</mark> in node A caused by its parent observations?"
 
 > [!EXAMPLE] 
-> > [!two-column]
+> > [!many-cols]
 >>
-> >> [!left|5]
+> >> [!col|5]
 > > >
 > >> The CPT of A contains the probability of its observations (a, ¬a) given all the possible combinations of its parents' observations.
 >>
-> >> [!right|5]
+> >> [!col|5]
 > >> 
 > >> ![[Bayesian Networks 2026-03-20 22.10.15.excalidraw.svg|h-250px]]
 
@@ -142,35 +142,35 @@ To find what nodes are affected by each observation, we need another diagram tha
 I like to imagine every observed node as an information source that tries its best to reach as much nodes as possible, but its movement needs to follow the following *rules*,    
 *(suppose that A is the observed node whose active paths we're trying to draw)*
 1. {i}
-    > [!two-column]
+    > [!many-cols]
     >
-    > > [!left|4]
+    > > [!col|4]
     > > 
     > > Information can't flow from one parent to another if the child is *not* observed.
     >
-    > > [!right|6]
+    > > [!col|6]
     > > 
     > > ![[Bayesian Networks 2026-03-25 20.34.14.excalidraw.svg|300]]    ^8b579f
 
 1. 
-    > [!two-column]
+    > [!many-cols]
     >
-    > > [!left|4]
+    > > [!col|4]
     > > 
     > > Information can’t flow from a sibling to another if the parent is _observed_.
     >
-    > > [!right|6]
+    > > [!col|6]
     > > 
     > > ![[Bayesian Networks 2026-03-25 20.39.16.excalidraw.svg|300]] ^c61007
 
 2. 
-    > [!two-column]
+    > [!many-cols]
     >
-    > > [!left|4]
+    > > [!col|4]
     > > 
     > > Information can't cross another observed node.
     >
-    > > [!right|6]
+    > > [!col|6]
     > > 
     > > ![[Bayesian Networks 2026-03-25 20.54.12.excalidraw.svg|150]] ^a51978
 ## Examples

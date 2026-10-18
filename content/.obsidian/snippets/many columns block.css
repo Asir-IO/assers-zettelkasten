@@ -1,0 +1,56 @@
+/* FEATURE: Multi-column blocks styling */
+.callout[data-callout="many-cols"],
+.callout[data-callout="col"] {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.callout[data-callout="many-cols"] > .callout-title,
+.callout[data-callout="col"] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout="many-cols"] > .callout-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.callout[data-callout="many-cols"][data-callout-metadata="0"] > .callout-content {
+  gap: 0;
+}
+
+/* Base styling for the inner columns */
+.callout[data-callout="col"] {
+  flex: 1;
+  min-width: 64px;
+}
+
+.callout[data-callout="col"] > .callout-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.callout[data-callout="col"] > .callout-content > *:has(.internal-embed, img, video) {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.callout[data-callout="col"][data-callout-metadata="1"] { flex: 1; }
+.callout[data-callout="col"][data-callout-metadata="2"] { flex: 2; }
+.callout[data-callout="col"][data-callout-metadata="3"] { flex: 3; }
+.callout[data-callout="col"][data-callout-metadata="4"] { flex: 4; }
+.callout[data-callout="col"][data-callout-metadata="5"] { flex: 5; }
+.callout[data-callout="col"][data-callout-metadata="6"] { flex: 6; }
+.callout[data-callout="col"][data-callout-metadata="7"] { flex: 7; }
+.callout[data-callout="col"][data-callout-metadata="8"] { flex: 8; }
+.callout[data-callout="col"][data-callout-metadata="9"] { flex: 9; }

@@ -27,12 +27,12 @@ This info. is useful because an actual arbitrary input signal will also be a col
 For a general linear system, you'll need to do this for every single point in time ($k$), to rightfully claim that you know how the system reacts across its whole lifespan. 
 However, if the system is also time-invariant, you'll only need to do this ONCE, since all the impulse responses are basically identical.
 
-> [!two-column]
+> [!many-cols]
 >
-> > [!left]
+> > [!col]
 > > Once u acquire the impulse response knowledge, u can compute the system's output to any arbitrary input signal. 
 >
-> > [!right]
+> > [!col]
 > > 
 > > ![[Convolution Sum 2026-01-25 01.46.35.excalidraw.svg|200]]
 

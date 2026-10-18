@@ -23,13 +23,13 @@ PEAS is a framework that *attempts* to describe the Task Environment of an Agent
 - and *using what* can the agent sense what's around it. <span style="float: right;">(<b>S</b>ensors)</span>
 
 ## Example
-> [!two-column]
+> [!many-cols]
 >
-> > [!left]
+> > [!col]
 > > 
 > > Below is an example of a PEAS description of the task environment of a Robot Vaccum agent,
 >
-> > [!right]
+> > [!col]
 > > 
 > > >[!with-desc]
 > > >

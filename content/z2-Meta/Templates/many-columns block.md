@@ -1,12 +1,12 @@
 ---
 {}
 ---
-> [!two-column]
+> [!many-cols]
 >
-> > [!left]
+> > [!col]
 > > 
 > > <% tp.file.cursor(1) %>
 >
-> > [!right]
+> > [!col]
 > > 
 > > ...

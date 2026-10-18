@@ -27,13 +27,13 @@ I blanked. I could barely recall one or two. This is why I created this zettelka
 
 This is *(mostly)* a living collection of the work and knowledge that's usually deemed lost after the finals. it includes:
 ## [[Concepts/index|Concepts]]
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <img src="z1-Assets/icons/concept-icon-2.svg" alt="Concepts Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0;  max-width: unset" />
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > > [!with-desc]
 > >>Concepts that I successfully found a mental model for.
@@ -42,23 +42,23 @@ This is *(mostly)* a living collection of the work and knowledge that's usually 
 > >>> 
 > >>> (usually is a visualization ;)
 ## [[Strategies/index|Strategies]]
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <img src="z1-Assets/icons/strategy-icon-2.svg" alt="Strategies Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > Strategies that I developed/used to help me solve a problem in a more structured way.
 ## [[Workflows/index|Workflows]]
-> [!two-column]
+> [!many-cols]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <img src="z1-Assets/icons/workflow-icon-2.svg" alt="Workflows Icon" style="width: 64px; height: 64px; min-width: 28px; display: block; margin: 0; max-width: unset" />
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > Workflows that help me do tasks in a smoother way.
 
@@ -125,43 +125,42 @@ I'm the one who created this (with generous assistance from my buddy Gemmy).
 > [!desc]
 > (Gemmy thinks i'm a narcissist for mentioning my name this many times, I sure hope I'm not =\`)
 # Where to find me
-> [!two-column|0]
+> [!many-cols|0]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <a href="https://discord.com/users/1091021223623925931" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-discord" style="font-size: 26px;"></i></a>
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4; margin-bottom: 1rem"> <span><code>itsasir</code> (username)</span><span style="font-size: 0.9em; opacity: 0.8;"> This is my preferred way to connect with humans =) </span></div>
 
-> [!two-column|0]
+> [!many-cols|0]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <a href="https://www.facebook.com/asser.ahmed.rushdy/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-square-facebook" style="font-size: 26px;"></i></a>
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > This is an option too, I guess.
 
-> [!two-column|0]
+> [!many-cols|0]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <a href="https://www.linkedin.com/in/asser-ahmed-roshdy" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-linkedin" style="font-size: 26px;"></i></a>
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > <span>I have a linkedin too (but it's basically dead)</span> 
 
-> [!two-column|0]
+> [!many-cols|0]
 >
-> > [!left|1]
+> > [!col|1]
 > > 
 > > <a href="https://github.com/Asir-IO" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;"><i class="fa-brands fa-github" style="font-size: 26px;"></i></a>
 >
-> > [!right|9]
+> > [!col|9]
 > > 
 > > You won't find me there, but you'll find more of my creations.
-
